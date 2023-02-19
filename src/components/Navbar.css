@@ -1,0 +1,29 @@
+.navbar{
+    height: 75px;
+}
+
+.searchBox{
+    height: 40px;
+    width: 350px !important;
+    margin-top: 6px;
+}
+.logo{
+    font-size: 26px;
+    color: rgb(59, 116, 176);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.userProfile{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 468px) {
+    .logo{
+        font-size: 18px;
+    }
+    
+}
